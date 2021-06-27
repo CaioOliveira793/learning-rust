@@ -1,0 +1,13 @@
+[package]
+name = "ent_rust"
+version = "0.1.0"
+edition = "2018"
+path = "src/lib.rs"
+
+[[bin]]
+name = "use_ent_rust"
+path = "use_lib/use.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
